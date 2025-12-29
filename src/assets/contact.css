@@ -1,0 +1,66 @@
+.contact-section {
+  padding: 5rem 1.5rem;
+}
+
+.contact-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #414c5f
+}
+
+.section-number {
+  color: #c084fc;
+}
+
+.contact-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 1.25rem;
+  color: #efeff0;
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;  /* ← Added for mobile */
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;  /* ← Increased gap between icon and text */
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+  white-space: nowrap;  /* ← Prevent text wrapping */
+}
+
+.contact-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+.contact-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;  /* ← Prevent icon from shrinking */
+}

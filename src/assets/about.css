@@ -1,0 +1,39 @@
+.about-section {
+  padding: 5rem 1.5rem;
+}
+
+.about-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #414c5f
+}
+
+.section-number {
+  color: #94a3b8;
+}
+
+.about-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.about-text {
+  font-size: 1.125rem;
+  color: #efeff0;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+.about-text:last-child {
+  margin-bottom: 0;
+}
